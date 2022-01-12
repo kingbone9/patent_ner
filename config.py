@@ -1,7 +1,7 @@
 import os
 import torch
 
-data_dir = os.getcwd() + '/data/suwen_data/'
+data_dir = os.getcwd() + '/data/'
 train_dir = data_dir + 'train.npz'
 test_dir = data_dir + 'test.npz'
 predict_dir = data_dir + 'predict.npz'
